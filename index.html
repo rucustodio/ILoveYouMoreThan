@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>I Love You More Than...</title>
+    <meta property="og:title" content="I Love You More Than..." />
+    <meta property="og:url" content="http://ilymorethan.com/" />
+    <meta property="og:image" content="http://ilymorethan.com/img/FBShareImageBig.jpg" />
+    <meta property="og:description" content="Find the words to say how you really feel about the person you love with this digital card." />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/Home.css" type="text/css" />
+    <script>
+        var ILYMT = {};
+        ILYMT.href = 'http://ilymorethan.com/';
+        ILYMT.twitterShare = 'Find the words to express your love with this digital love card. #ILYMORETHAN'
+    </script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/Utilities.js"></script>
+    <script type="text/javascript" src="js/Home.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <div class="header">
+                <img src="img/heart.png" alt="I Love You More Than" width="200"/>
+                <a class="about" href="#"></a>
+                <a class="twitter" href="#"></a>
+                <a class="fb" href="#"></a>
+            </div>
+            <p>Let your significant other know how you feel today with this digital love card.</p>
+            <div class="step"><span class="number">1</span>I LOVE THEM MORE THAN<input id="Love" type="text" maxlength="25"/>
+                <span class="hints">(ex. “bacon”, “Channing Tatum”, “Shoes”)</span>
+            </div>
+            <div class="step"><span class="number">2</span>YOUR NAME IS<input id="Name" type="text" maxlength="25"/>
+                <br />
+                <span class="hints">(optional)</span>
+            </div>
+            <input type="submit" value="" />
+        </div>
+        <footer>
+            <p>
+                I Love You More Than<sup>&copy;</sup>, Copyright 2014
+            </p>
+        </footer>
+    </div>
+    <div id="progress">
+        <img src="img/progress-gif.gif" />
+    </div>
+    <div id="ready">
+        <div class="modal">
+            <div class="close"></div>
+            <h2>Your Card is Ready!</h2>
+            <p>Your card is ready. To share just copy the link below or use Facebook or Twitter buttons below to send.</p>
+            <div class="content">
+                <span class="url">Bitly Url</span>
+                <a class="copy" href="#"></a>
+                <a class="twitter" href="#" ></a>
+                <a class="fb" href="#"></a>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="modal">
+            <div class="close"></div>
+            <img src="img/about.png" />
+            <p>
+            	<span>“I Love You More Than”</span> is a digital love card created by <span>Ruben</span> and <span>Joel</span>.  Ruben loves his fiancé more 
+            	than beer and Joel loves his girlfriend more than bacon.  And trust us, that’s saying a lot. I mean 
+            	have you tasted bacon? They have bacon that’s been smoked on applewood.  And maple bacon. That’s 
+            	the food of Gods. Seriously though, it’s amazing.
+           </p>
+        </div>
+    </div>
+</body>
+</html>
